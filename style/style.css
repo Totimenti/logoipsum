@@ -82,6 +82,7 @@
 }
 .header__flex,
 .about,
+.subscribe,
 .footer__flex {
   display: flex;
   justify-content: space-between;
@@ -90,4 +91,109 @@
 .footer {
   padding: 53px 0;
   background: rgba(255, 113, 67, 0.27);
+}
+.subscribe {
+  margin-bottom: 85px;
+}
+.subscribetitle {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: -1.56316px;
+  color: #19191b;
+  margin-bottom: 38px;
+}
+.input {
+  width: 302px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #7087ff;
+  padding-left: 14px;
+  box-sizing: border-box;
+  margin-right: 39px;
+}
+.input::placeholder,
+.input {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #000000;
+}
+.input:focus {
+  outline: none;
+}
+.plan {
+  margin-bottom: 132px;
+}
+.plantitle {
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+  color: #19191b;
+  max-width: 504px;
+  margin-bottom: 110px;
+}
+.item {
+  width: 330px;
+  /* height: 441px; */
+  background-color: #f5f3f3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 34px 0 27px;
+  transition: 500ms;
+}
+.item:hover {
+  background: #ff7143;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+
+.itemtext {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+  transition: 500ms;
+}
+.item:hover .itemtext,
+.item:hover .itemtitle,
+.item:hover .itemli {
+  color: #f5f3f3;
+  transition: 500ms;
+}
+.itemtitle {
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+  margin: 22px 0 28px;
+  transition: 500ms;
+}
+.itemtitle span {
+  font-size: 28px;
+}
+.itemli {
+  list-style: none;
+  font-size: 17px;
+  line-height: 50px;
+  letter-spacing: -0.531474px;
+  color: #696871;
+  transition: 500ms;
+}
+.itembutton {
+  width: 285px;
+  background-color: white;
+  color: #5454d4;
+  margin-top: 36px;
+  transition: 500ms;
+}
+.item:hover .itembutton {
+  background: #9f3919;
+  color: white;
+  transition: 500ms;
+}
+.plan__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
